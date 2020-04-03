@@ -1,8 +1,4 @@
 const fetch = require('node-fetch');
-const Bluebird = require('bluebird');
- 
-fetch.Promise = Bluebird;
-
 const { URLSearchParams } = require('url');
  
 const params = new URLSearchParams();
